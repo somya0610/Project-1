@@ -1,4 +1,4 @@
-/*Calculator program*/
+/*Calculator program-modified*/
 import java.util.Scanner;
 
 public class CalAdd {
