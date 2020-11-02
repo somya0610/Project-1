@@ -26,14 +26,21 @@ public class CalAdd {
                     a = sc.nextFloat();
                     b = sc.nextFloat();
                     result = a - b;
-                    System.out.println("Result of sybstraction= " + result);
-                    break;
+                    System.out.println("Result of substraction= " + result);
+                    break;		
                 case '3':
+                    System.out.println("Enter two numbers:");
+                    a = sc.nextFloat();
+                    b = sc.nextFloat();
+                    result = a * b;
+                    System.out.println("Result of multiplication= " + result);
+                    break;
+                case '4':
                     System.exit(0);
                     break;
                 default:
                     System.out.println("Invalid Choice!!");
-                    break;
+                    breakyi;
             }
             System.out.println("\n --------------------------------------------------- \n");
         } while (choice != 3);
