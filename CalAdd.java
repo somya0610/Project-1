@@ -19,14 +19,14 @@ public class CalAdd {
                     a = sc.nextFloat();
                     b = sc.nextFloat();
                     result = a + b;
-                    System.out.println("Result = " + result);
+                    System.out.println("Result of addition= " + result);
                     break;
                 case '2':
                     System.out.println("Enter two numbers:");
                     a = sc.nextFloat();
                     b = sc.nextFloat();
                     result = a - b;
-                    System.out.println("Result = " + result);
+                    System.out.println("Result of sybstraction= " + result);
                     break;
                 case '3':
                     System.exit(0);
