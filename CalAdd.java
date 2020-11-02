@@ -11,7 +11,8 @@ public class CalAdd {
             System.out.println("1. Add two numbers");
             System.out.println("2. Subtract two numbers");    
             System.out.println("3. Multiply two numbers"); 
-            System.out.println("4. Exit \n");
+            System.out.println("4. Divide two numbers"); 
+            System.out.println("5. Exit \n");
             System.out.println("Enter choice: ");
             choice = sc.next().charAt(0);
             switch (choice) {
@@ -37,6 +38,13 @@ public class CalAdd {
                     System.out.println("Result of multiplication= " + result);
                     break;
                 case '4':
+                    System.out.println("Enter two numbers:");
+                    a = sc.nextFloat();
+                    b = sc.nextFloat();
+                    result = a / b;
+                    System.out.println("Result of division= " + result);
+                    break;
+                case '5':
                     System.exit(0);
                     break;
                 default:
@@ -44,6 +52,6 @@ public class CalAdd {
                     break;
             }
             System.out.println("\n --------------------------------------------------- \n");
-        } while (choice != 4);
+        } while (choice != 5);
     }
 }
