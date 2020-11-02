@@ -26,7 +26,7 @@ public class CalAdd {
                     a = sc.nextFloat();
                     b = sc.nextFloat();
                     result = a - b;
-                    System.out.println("Result of sybstraction= " + result);
+                    System.out.println("Result of substraction= " + result);
                     break;
                 case '3':
                     System.out.println("Enter two numbers:");
